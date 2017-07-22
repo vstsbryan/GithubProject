@@ -13,7 +13,15 @@ namespace GithubProject
         {
             InitializeComponent();
 
-            MainPage = new GithubProject.MainPage();
+            MainPage = new ContentPage()
+            {
+                Content = new Label()
+                {
+                    Text = "Welcome to Xamarin.Forms!",
+                    TextColor = Color.Red
+                },
+                BackgroundColor = Color.Purple
+            };
         }
 
         protected override void OnStart()
