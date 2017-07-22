@@ -18,7 +18,8 @@ namespace GithubProject
                 Content = new Label()
                 {
                     Text = "Welcome to Xamarin.Forms!",
-                    TextColor = Color.Red
+                    TextColor = Color.Red,
+                    FontAttributes = FontAttributes.Bold
                 },
                 BackgroundColor = Color.Purple
             };
